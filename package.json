@@ -1,0 +1,15 @@
+{
+  "name": "projectriley",
+  "version": "1.0.0",
+  "description": "Website for Project Riley",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Seneca Sisneros",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "node": "^8.3.0"
+  }
+}
