@@ -253,3 +253,79 @@ body .nav .nav-menu li a {
   width: 100%;
   margin: 0 auto;
 }
+
+.one-third {
+  width: 28%;
+  float: left;
+  margin: 2% 0 3% 4%;
+  text-align: center;
+}
+
+.one-third i {
+  color: rgb(15, 131, 237);
+  font-size: 580%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h2.welcome {
+  margin-top: 4%;
+}
+
+.left-col {
+  width: 60%;
+  margin: 4% 0 4% 4%;
+  float: left;
+}
+
+.sidebar {
+  width: 26%;
+  float: left;
+  margin: 4%;
+}
+
+.sidebar img {
+}
+
+.one-third img {
+  padding: 2% 0 6% 0;
+}
+
+.page-callout {
+  width: 90%;
+  min-height: 70px;
+  margin: 1% auto;
+  border: 1px solid blue;
+}
+
+.callout-text {
+  float: left;
+  width: 75%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.button-holder {
+  float: right;
+  width: 19%;
+  padding: 1%;
+  margin-bottom: 4%;
+}
+
+.btn {
+  float: left;
+  border-radius: 8px;
+  color: white;
+  font-size: 22px;
+  background: rgb(14, 29, 82);
+  padding:10px 20px 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: rgb(171, 187, 183);
+  text-decoration: none;
+}
