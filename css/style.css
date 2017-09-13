@@ -329,3 +329,58 @@ h2.welcome {
   background: rgb(171, 187, 183);
   text-decoration: none;
 }
+
+footer {
+  background-color: #FCEBB6;
+  opacity: 0.9;
+  width: 100%;
+  padding: 1% 0;
+  overflow: auto;
+}
+
+footer h3 {
+  text-decoration: underline;
+}
+
+.footercontact {
+  text-align: center;
+}
+
+.phone {
+  color: blue;
+  text-decoration: none;
+}
+
+.social {
+  list-style-type: none;
+  margin: 3% 0;
+  padding: 0;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 195%;
+  padding: 3%;
+}
+
+.social i:hover {
+  background: rgb(171, 187, 183);
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
