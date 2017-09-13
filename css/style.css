@@ -9,8 +9,8 @@
 }
 
 body {
-  /*background-color: rgb(206, 207, 210);*/
-  background-color: white;
+  background-color: rgb(206, 207, 210);
+  /*background-color: white;*/
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
 }
@@ -42,7 +42,7 @@ img {
 
 #wrapper {
   margin: 0 auto;
-  max-width: 1120px;
+  /*max-width: 1120px;*/
   background-color: white;
   /*background-color: rgb(206, 207, 210);*/
   overflow: auto;
@@ -80,7 +80,7 @@ header {
 }
 
 #banner-wrapper {
-  max-width: 1120px;
+  /*max-width: 1120px;*/
   margin: 0 auto;
   /*padding: 0 0 3% 0;*/
 }
@@ -245,7 +245,7 @@ body .nav .nav-menu li a {
 
 /*SLIDER IMAGE*/
 .slider {
-  max-width: 1020px;
+  /*max-width: 1020px;*/
   box-shadow: 1% 2% 5% 0 rgba(0, 0, 0, 0.07);
 }
 
@@ -383,4 +383,65 @@ footer h3 {
   left: 0;
   width: 100% !important;
   height: 100% !important;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 740px) {
+  #wrapper {
+    margin-top: -1%;
+  }
+  #callout {
+    width: 100%;
+    margin: 3% 0 2% 0;
+  }
+  #callout p {
+    display: none;
+  }
+  .slider .bx-wrapper .bx-controls {
+    display: none;
+  }
+  .one-third {
+    float: left;
+    width: 100%;
+    margin: 4% 0;
+  }
+  .one-third i {
+    font-size: 355%;
+  }
+  h1 {
+    font-size: 125%;
+    letter-spacing: 2px;
+  }
+  h2.welcome {
+    font-size: 120%;
+  }
+  .left-col {
+    width: 100%;
+    margin: 0 0 3% 0;
+  }
+  .sidebar {
+    width: 100%;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+  }
+  .slider img {
+    opacity: 0.9;
+  }
+  .page-callout {
+    width: 90%;
+    min-height: 160px;
+  }
+  .callout-text {
+    width: 95%;
+  }
+  .button-holder {
+    width: 80%;
+    padding: 1%;
+  }
+  .social i {
+    font-size: 175%;
+  }
 }
