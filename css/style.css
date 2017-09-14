@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Merienda:400,700); /*--- Nav Font --*/
-@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700); /*--- Body Font --*/
-@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two); /*--- Heading Font --*/
+@import url('//fonts.googleapis.com/css?family=Merienda:400,700');
+@import url('//fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('//fonts.googleapis.com/css?family=Shadows+Into+Light+Two'); 
 
 * {
   margin: 0;
