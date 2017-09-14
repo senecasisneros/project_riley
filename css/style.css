@@ -344,6 +344,7 @@ footer h3 {
 
 .footercontact {
   text-align: center;
+  margin-top: 5%;
 }
 
 .phone {
@@ -381,8 +382,8 @@ footer h3 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100% !important;
-  height: 100% !important;
+  width: 90% !important;
+  height: 90% !important;
 }
 
 
@@ -444,4 +445,65 @@ footer h3 {
   .social i {
     font-size: 175%;
   }
+}
+
+
+#contact h3 {
+  color: #F96;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin:5px 0 15px;
+  display:block;
+  font-size:13px;
+}
+
+fieldset {
+  border: medium none !important;
+  /*margin: 0 0 10px;*/
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+  width:80%;
+  /*border:1px solid #CCC;*/
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 15px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition:border-color 0.3s ease-in-out;
+  -moz-transition:border-color 0.3s ease-in-out;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
+}
+
+#contact textarea {
+  height:100px;
+  max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+  cursor:pointer;
+  width: 86%;
+  border:none;
+  background:#0CF;
+  color:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+  background:#09C;
+  -webkit-transition:background 0.3s ease-in-out;
+  -moz-transition:background 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out;
 }
