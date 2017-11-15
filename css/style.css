@@ -290,7 +290,8 @@ body .nav .nav-menu li a {
 }
 
 h2.welcome {
-  margin-top: 4%;
+  margin-top: 2%;
+  font-size: 40px;
 }
 
 .left-col {
@@ -320,10 +321,11 @@ h2.welcome {
 }
 
 .page-callout {
-  width: 90%;
+  width: 100%;
   min-height: 70px;
   margin: 1% auto;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
+  background-color: #fcebb6;
 }
 
 .callout-text {
@@ -331,13 +333,14 @@ h2.welcome {
   width: 75%;
   font-size: 22px;
   font-weight: bold;
+  color: #5e412f;
 }
 
 .button-holder {
   float: right;
   width: 19%;
   padding: 1%;
-  margin-bottom: 4%;
+  /*margin-bottom: 4%;*/
 }
 
 .btn {
@@ -345,7 +348,7 @@ h2.welcome {
   border-radius: 8px;
   color: white;
   font-size: 22px;
-  background: rgb(14, 29, 82);
+  background: rgb(15, 131, 237);
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   font-weight: bold;
@@ -489,6 +492,9 @@ fieldset {
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
+/*.bx-wrapper img {
+  height: 500px;
+}*/
 
 /*Media Queries*/
 
@@ -554,10 +560,13 @@ fieldset {
   }
   .callout-text {
     width: 95%;
+    font-size: 19px;
   }
   .button-holder {
-    width: 80%;
+    float: none;
+    width: 100%;
     padding: 1%;
+    margin-left: 28%;
   }
   .social i {
     font-size: 175%;
