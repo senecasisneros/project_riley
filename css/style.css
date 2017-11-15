@@ -72,7 +72,7 @@ header {
 }
 
 #logoText {
-  color: rgb(15, 99, 176);
+  color: rgb(20, 82, 140);
 }
 
 #callout {
@@ -84,11 +84,11 @@ header {
 
 #callout h2 {
   text-align: right;
-  color: blue;
+  color: rgb(15, 131, 237);
 }
 
 #callout h2 a {
-  color: blue;
+  color: rgb(15, 131, 237);
   text-decoration: none;
 }
 
@@ -376,15 +376,14 @@ footer h3 {
 }
 
 .phone {
-  /*color: blue;*/
-  color: rgb(15, 99, 176);
-  text-decoration: none;
+  color: rgb(15, 131, 237);
 }
 
 .social {
   list-style-type: none;
   margin: 3% 0;
   padding: 0;
+  color: rgb(15, 131, 237);
 }
 
 .social li {
@@ -402,7 +401,7 @@ footer h3 {
 
 .google-maps {
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 70%;
   height: 0;
   overflow: hidden;
 }
@@ -468,7 +467,7 @@ fieldset {
 }
 
 #contact textarea {
-  height: 80px;
+  height: 90px;
   max-width: 100%;
   resize: none;
 }
@@ -477,10 +476,10 @@ fieldset {
   cursor: pointer;
   width: 96%;
   border: none;
-  background: #0cf;
+  background: rgb(15, 131, 237);
   color: #fff;
   margin: 0 0 5px;
-  padding: 7px;
+  padding: 11px;
   font-size: 80%;
 }
 
@@ -497,88 +496,69 @@ fieldset {
   #wrapper {
     margin-top: -1%;
   }
-
   #callout {
     width: 100%;
     margin: 3% 0 2% 0;
   }
-
   #callout p {
     display: none;
   }
-
   .slider .bx-wrapper .bx-controls {
     display: none;
   }
-
   .google-maps {
     margin: 2%;
   }
-
   .one-third {
     float: left;
     width: 100%;
     margin: 4% 0;
   }
-
   .one-third img {
     width: 50%;
   }
-
   .one-third i {
     font-size: 250%;
   }
-
   h1 {
     font-size: 125%;
     letter-spacing: 2px;
   }
-
   h2.welcome {
     font-size: 120%;
   }
-
   .left-col {
     width: 100%;
     margin: 0 0 3% 0;
   }
-
   .footercontact {
     margin-top: -35px;
   }
-
   .sidebar {
     width: 50%;
     margin: 0;
   }
-
   .sidebar img {
     /*margin-left: 10%;*/
     display: none;
   }
-
   /*img {
     width: 80%;
   }*/
-
   .slider img {
     opacity: 0.9;
   }
-
   .page-callout {
     width: 90%;
     min-height: 160px;
   }
-
   .callout-text {
     width: 95%;
   }
-
   .button-holder {
     width: 80%;
     padding: 1%;
   }
-
   .social i {
     font-size: 175%;
   }
