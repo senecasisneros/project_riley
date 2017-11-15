@@ -1,6 +1,6 @@
-@import url('//fonts.googleapis.com/css?family=Merienda:400,700');
-@import url('//fonts.googleapis.com/css?family=Quicksand:400,700');
-@import url('//fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+@import url("//fonts.googleapis.com/css?family=Merienda:400,700");
+@import url("//fonts.googleapis.com/css?family=Quicksand:400,700");
+@import url("//fonts.googleapis.com/css?family=Shadows+Into+Light+Two");
 * {
   margin: 0;
   border: 0;
@@ -11,32 +11,40 @@ body {
   background-color: rgb(206, 207, 210);
   /*background-color: white;*/
   font-family: "Quicksand", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 h1 {
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: "Shadows Into Light Two", cursive;
   text-align: center;
   font-size: 175%;
   letter-spacing: 3px;
   padding: 3% 0;
 }
 
-h2, h3, h4 {
-  font-family: 'Shadows Into Light Two', cursive;
+h2,
+h3,
+h4 {
+  font-family: "Shadows Into Light Two", cursive;
   text-align: center;
-  letter-spacing: 1%;
 }
 
 p {
   padding: 2%;
   text-align: justify;
+  letter-spacing: 1%;
 }
 
-img {
+/*img {
   text-align: center;
   max-width: 100%;
-  height: auto;
+  height: 150px;
+}*/
+
+.one-third img {
+  text-align: center;
+  max-width: 100%;
+  height: 150px;
 }
 
 #wrapper {
@@ -52,8 +60,19 @@ header {
 }
 
 #logo {
-  float: left;
-  margin: 3% 0 0 5%;
+  /*float: left;
+  margin: 3% 0 0 5%;*/
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+#logo a {
+  text-decoration: none;
+}
+
+#logoText {
+  color: rgb(15, 99, 176);
 }
 
 #callout {
@@ -87,8 +106,8 @@ header {
 nav {
   box-shadow: 3px 4px 24px 0 rgba(0, 0, 0, 0.07);
   margin-top: 2px;
-  background: #FCEBB6;
-  font-family: 'Merienda', cursive;
+  background: #fcebb6;
+  font-family: "Merienda", cursive;
 }
 
 .nav ul {
@@ -108,7 +127,7 @@ nav {
 }
 
 .nav a {
-  color: #5E412F;
+  color: #5e412f;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -116,18 +135,18 @@ nav {
 body .nav .nav-menu li a {
   display: inline-block;
   padding: 15px 20px;
-  color: #5E412F;
+  color: #5e412f;
   font-size: 18px;
   font-weight: 700;
 }
 
 .nav.yoga .nav-menu li.active a {
-  color: #5E412F;
+  color: #5e412f;
   text-decoration: underline;
 }
 
 .nav.yoga .nav-menu li a:hover {
-  color: #5E412F;
+  color: #5e412f;
   text-decoration: underline;
 }
 
@@ -140,7 +159,7 @@ body .nav .nav-menu li a {
 .nav.yoga .nav-toggled-controls {
   display: block;
   height: 36px;
-  color: #5E412F;
+  color: #5e412f;
   text-align: left;
   position: relative;
 }
@@ -163,18 +182,18 @@ body .nav .nav-menu li a {
   display: block;
   margin-top: 4px;
   height: 2px;
-  background: #5E412F;
+  background: #5e412f;
   width: 24px;
 }
 
 .nav-toggled-controls {
-  border-bottom: 0px solid #5E412F;
+  border-bottom: 0px solid #5e412f;
 }
 
 .nav.yoga .nav-toggled ul li a {
   display: block;
   width: 100%;
-  background-color: #FCEBB6;
+  background-color: #fcebb6;
   text-align: left;
   padding: 10px 0px 10px 15px;
   border-bottom: 1px solid #444444;
@@ -186,16 +205,16 @@ body .nav .nav-menu li a {
 }
 
 .nav.yoga .nav-toggled ul li a:active {
-  background-color: #FCEBB6;
-  color: #5E412F;
-  border-top: 1px solid #5E412F;
+  background-color: #fcebb6;
+  color: #5e412f;
+  border-top: 1px solid #5e412f;
 }
 
 .nav.yoga .nav-toggled ul li a:hover {
-  background: #FCEBB6;
+  background: #fcebb6;
   text-decoration: none;
-  color: #5E412F;
-  border-bottom: 1px solid #F07818;
+  color: #5e412f;
+  border-bottom: 1px solid #f07818;
 }
 
 .nav.yoga .nav-toggled ul li {
@@ -241,7 +260,6 @@ body .nav .nav-menu li a {
   padding: 15px 30px;
 }
 
-
 /*SLIDER IMAGE*/
 
 .slider {
@@ -263,7 +281,8 @@ body .nav .nav-menu li a {
 
 .one-third i {
   color: rgb(15, 131, 237);
-  font-size: 580%;
+  font-size: 500%;
+  margin-bottom: 10%;
 }
 
 .clearfix {
@@ -286,7 +305,15 @@ h2.welcome {
   margin: 4%;
 }
 
-.sidebar img {}
+.sidebar img {
+  max-width: 100%;
+  height: 200px;
+}
+
+#about {
+  text-align: center;
+  font-size: 20px;
+}
 
 .one-third img {
   padding: 2% 0 6% 0;
@@ -330,7 +357,7 @@ h2.welcome {
 }
 
 footer {
-  background-color: #FCEBB6;
+  background-color: #fcebb6;
   opacity: 0.9;
   width: 100%;
   padding: 1% 0;
@@ -345,11 +372,12 @@ footer h3 {
 .footercontact {
   text-align: center;
   margin-top: 3%;
-  font-size: 23px;
+  font-size: 17px;
 }
 
 .phone {
-  color: blue;
+  /*color: blue;*/
+  color: rgb(15, 99, 176);
   text-decoration: none;
 }
 
@@ -385,6 +413,7 @@ footer h3 {
   left: 0;
   width: 100% !important;
   height: 100% !important;
+  margin-top: 5%;
 }
 
 #copyright {
@@ -392,11 +421,11 @@ footer h3 {
 }
 
 #contact {
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 #contact h3 {
-  color: #F96;
+  color: #f96;
   display: block;
   font-size: 30px;
   font-weight: 400;
@@ -416,23 +445,30 @@ fieldset {
   width: 100%;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
   width: 90%;
   /*border:1px solid #CCC;*/
-  background: #FFF;
+  background: #fff;
   margin: 0 0 5px;
-  padding: 15px;
+  padding: 2.5%;
 }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
-  border: 1px solid #AAA;
+  border: 1px solid #aaa;
 }
 
 #contact textarea {
-  height: 100px;
+  height: 80px;
   max-width: 100%;
   resize: none;
 }
@@ -441,20 +477,19 @@ fieldset {
   cursor: pointer;
   width: 96%;
   border: none;
-  background: #0CF;
-  color: #FFF;
+  background: #0cf;
+  color: #fff;
   margin: 0 0 5px;
-  padding: 18px;
-  font-size: 15px;
+  padding: 7px;
+  font-size: 80%;
 }
 
 #contact button[type="submit"]:hover {
-  background: #09C;
+  background: #09c;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
-
 
 /*Media Queries*/
 
@@ -462,69 +497,88 @@ fieldset {
   #wrapper {
     margin-top: -1%;
   }
+
   #callout {
     width: 100%;
     margin: 3% 0 2% 0;
   }
+
   #callout p {
     display: none;
   }
+
   .slider .bx-wrapper .bx-controls {
     display: none;
   }
+
   .google-maps {
     margin: 2%;
   }
+
   .one-third {
     float: left;
     width: 100%;
     margin: 4% 0;
   }
+
   .one-third img {
     width: 50%;
   }
+
   .one-third i {
     font-size: 250%;
   }
+
   h1 {
     font-size: 125%;
     letter-spacing: 2px;
   }
+
   h2.welcome {
     font-size: 120%;
   }
+
   .left-col {
     width: 100%;
     margin: 0 0 3% 0;
   }
+
   .footercontact {
     margin-top: -35px;
   }
+
   .sidebar {
-    width: 100%;
+    width: 50%;
     margin: 0;
   }
+
   .sidebar img {
     /*margin-left: 10%;*/
     display: none;
   }
-  img {
+
+  /*img {
     width: 80%;
-  }
+  }*/
+
   .slider img {
     opacity: 0.9;
   }
+
   .page-callout {
     width: 90%;
     min-height: 160px;
   }
+
   .callout-text {
     width: 95%;
   }
+
   .button-holder {
     width: 80%;
     padding: 1%;
   }
+
   .social i {
     font-size: 175%;
   }
